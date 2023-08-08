@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "WATER="water" | STIR="stir ." |$((WATER+STIR))"
+WATER="water" | STIR="stir ." |echo"$((WATER+STIR))"
